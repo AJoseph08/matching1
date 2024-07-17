@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independent Squares</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+        .square {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #000;
+            box-sizing: border-box;
+            font-size: 24px;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="square" style="width: 500px; height: 120px; top: 439px; left: 249px; background-color: #0000ff; border-radius: 0px;">5</div>  
+        <div class="square" style="width: 70px; height: 70px; top: 430px; left: 80px; background-color: #ff0000; border-radius: 10px;">1</div>
+        <div class="square" style="width: 70px; height: 70px; top: 430px; left: 190px; background-color: #ff7f00; border-radius: 10px;">2</div>
+        <div class="square" style="width: 70px; height: 70px; top: 430px; left: 300px; background-color: #ffff00; border-radius: 10px;">3</div>
+        <div class="square" style="width: 70px; height: 70px; top: 430px; left: 410px; background-color: #00ff00; border-radius: 10px;">4</div>
+        <div class="square" style="width: 300px; height: 300px; top: 200px; left: 200px; background-color: #4b0082; border-radius: 50px;">6</div>
+        <div class="square" style="width: 250px; height: 250px; top: 200px; left: 200px; background-color: #8b00ff; border-radius: 0px;">7</div>
+        <div class="square" style="width: 80px; height: 30px; top: 30px; left: 450px; background-color: #ff69b4; border-radius: 0px;">8</div>
+        <div class="square" style="width: 80px; height: 30px; top: 70px; left: 450px; background-color: #00ced1; border-radius: 0px;">9</div>
+        <div class="square" style="width: 50px; height: 50px; top: 500px; left: 0px; background-color: #dda0dd; border-radius: 10px;">10</div>
+    </div>
+</body>
+</html>
